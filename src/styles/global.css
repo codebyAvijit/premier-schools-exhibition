@@ -1,0 +1,22 @@
+body {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-md);
+  color: var(--color-text);
+  background-color: var(--color-white);
+  line-height: 1.5;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+section {
+  padding: var(--space-3xl) 0;
+}

@@ -1,1 +1,75 @@
-    
+:root {
+  /* ==========================
+      COLORS
+   ========================== */
+
+  --color-primary: #5d1f87;
+  --color-primary-light: #f7f0ff;
+
+  --color-secondary: #f9b233;
+
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --color-text: #333333;
+
+  --color-border: #e5e5e5;
+
+  --color-background: #fafafa;
+
+  /* ==========================
+      TYPOGRAPHY
+   ========================== */
+
+  --font-primary: "Open Sans", sans-serif;
+
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 32px;
+  --font-size-3xl: 48px;
+
+  /* ==========================
+      FONT WEIGHT
+   ========================== */
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* ==========================
+      SPACING
+   ========================== */
+
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-2xl: 60px;
+  --space-3xl: 80px;
+
+  /* ==========================
+      CONTAINER
+   ========================== */
+
+  --container-width: 1280px;
+
+  /* ==========================
+      BORDER RADIUS
+   ========================== */
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+
+  /* ==========================
+      TRANSITION
+   ========================== */
+
+  --transition: 0.3s ease;
+}
