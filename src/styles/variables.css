@@ -1,5 +1,16 @@
 :root {
   /* ==========================
+      HERO / EVENT COLORS
+   ========================== */
+
+  --color-event-bg: #f7d39b;
+  --color-event-border: #3d1a6b;
+  --color-event-divider: rgba(61, 26, 107, 0.3);
+
+  --hero-gradient-start: #0e1245;
+  --hero-gradient-end: #5d1f87;
+
+  /* ==========================
       COLORS
    ========================== */
 

@@ -1,0 +1,14 @@
+.event-cards {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 32px;
+
+  background: var(--color-event-bg);
+
+  border: 3px solid var(--color-event-border);
+
+  border-radius: 28px;
+
+  overflow: hidden;
+}

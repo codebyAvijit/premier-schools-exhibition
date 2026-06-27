@@ -1,0 +1,24 @@
+.hero {
+  background: linear-gradient(
+    90deg,
+    var(--hero-gradient-start),
+    var(--hero-gradient-end)
+  );
+
+  padding: 64px 0;
+}
+
+.hero__wrapper {
+  display: grid;
+  grid-template-columns: 1.3fr 1.4fr 1fr;
+
+  gap: 48px;
+
+  align-items: center;
+}
+
+.hero__left,
+.hero__center,
+.hero__right {
+  min-height: 500px;
+}
