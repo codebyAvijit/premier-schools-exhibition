@@ -1,12 +1,7 @@
-import Container from "./components/common/Container/Container"
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
-
-  return (
-    <>
-     <Container/>
-    </>
-  )
+  return <AppRoutes />;
 }
 
-export default App
+export default App;
