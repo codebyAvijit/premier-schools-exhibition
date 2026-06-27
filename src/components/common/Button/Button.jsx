@@ -2,21 +2,25 @@ import "./Button.css";
 
 const Button = ({
   children,
+  icon,
   variant = "primary",
-  size = "md",
   type = "button",
-  disabled = false,
   className = "",
   ...props
 }) => {
   return (
     <button
       type={type}
-      disabled={disabled}
-      className={`button button--${variant} button--${size} ${className}`}
+      className={`button button--${variant} ${className}`}
       {...props}
     >
-      {children}
+      {icon && (
+        <span className="button__icon">
+          <img src={icon} alt="" aria-hidden="true" />
+        </span>
+      )}
+
+      <span className="button__text">{children}</span>
     </button>
   );
 };

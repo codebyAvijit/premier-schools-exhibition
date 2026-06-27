@@ -1,7 +1,11 @@
+import Hero from "../../components/sections/Hero/Hero";
+import Stats from "../../components/sections/Stats/Stats";
+
 const Home = () => {
   return (
     <>
-      Home Page
+      <Hero />
+      <Stats />
     </>
   );
 };
