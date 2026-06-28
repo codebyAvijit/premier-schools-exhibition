@@ -1,10 +1,14 @@
-import React from "react";
+import BlogHero from "../../components/sections/BlogHero/BlogHero";
+import BlogArticle from "../../components/sections/BlogArticle/BlogArticle";
+import LatestBlogs from "../../components/sections/LatestBlogs/LatestBlogs";
 
 const BlogDetails = () => {
   return (
-    <section>
-      <h1>Blog Details</h1>
-    </section>
+    <>
+      <BlogHero />
+      <BlogArticle />
+      <LatestBlogs />
+    </>
   );
 };
 

@@ -1,0 +1,14 @@
+.blog-hero {
+  background: #fff;
+}
+
+.blog-hero__banner {
+  width: 100%;
+  display: block;
+}
+
+.search-bar {
+  margin-top: -28px;
+  position: relative;
+  z-index: 2;
+}
