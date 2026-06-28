@@ -22,3 +22,50 @@
 .hero__right {
   min-height: 500px;
 }
+
+/* ==========================
+   Tablet
+========================== */
+
+@media (max-width: 1024px) {
+  .hero {
+    padding: 48px 0;
+  }
+
+  .hero__wrapper {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .hero__left,
+  .hero__center,
+  .hero__right {
+    min-height: auto;
+  }
+
+  .hero__center {
+    order: 1;
+  }
+
+  .hero__left {
+    order: 2;
+  }
+
+  .hero__right {
+    order: 3;
+  }
+}
+
+/* ==========================
+   Mobile
+========================== */
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 32px 0 48px;
+  }
+
+  .hero__wrapper {
+    gap: 36px;
+  }
+}

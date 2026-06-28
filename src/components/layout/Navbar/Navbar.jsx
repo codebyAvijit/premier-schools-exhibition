@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import Container from "../../common/Container/Container";
 import Button from "../../common/Button/Button";
@@ -19,9 +19,18 @@ const Navbar = () => {
         >
           <img src={logo} alt="Premier Schools Exhibition Logo" />
         </Link>
+
         <div className="navbar__actions">
+          <NavLink
+            to="/blogs"
+            className={({ isActive }) =>
+              isActive ? "navbar__link navbar__link--active" : "navbar__link"
+            }
+          >
+            Blogs
+          </NavLink>
+
           <Button icon={arrowIcon}>Register Now</Button>
-          {/* Mobile Hamburger */}
         </div>
       </Container>
     </header>

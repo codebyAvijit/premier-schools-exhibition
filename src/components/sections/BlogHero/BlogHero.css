@@ -3,12 +3,42 @@
 }
 
 .blog-hero__banner {
-  width: 100%;
   display: block;
+
+  width: 100%;
+  height: auto;
 }
 
 .search-bar {
-  margin-top: -28px;
   position: relative;
+
   z-index: 2;
+
+  margin-top: -28px;
+}
+
+/* Tablet */
+
+@media (max-width: 992px) {
+  .search-bar {
+    margin-top: -18px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .blog-hero__banner {
+    height: 180px;
+
+    object-fit: cover;
+
+    object-position: center;
+  }
+
+  .search-bar {
+    margin-top: -14px;
+
+    padding: 0 16px;
+  }
 }

@@ -12,20 +12,50 @@
   color: var(--color-primary);
 }
 
-.testimonials__image img {
-  width: 100%;
-
-  display: block;
+.testimonials__image {
+  display: flex;
+  justify-content: center;
 }
 
-@media (max-width: 768px) {
+.testimonials__image img {
+  width: 100%;
+  max-width: 1200px;
+
+  display: block;
+
+  border-radius: 20px;
+}
+
+/* ==========================
+   Tablet
+========================== */
+
+@media (max-width: 992px) {
   .testimonials {
-    padding: 60px 0;
+    padding: 70px 0;
   }
 
   .testimonials__title {
-    font-size: 32px;
+    font-size: 38px;
+  }
+}
 
-    margin-bottom: 32px;
+/* ==========================
+   Mobile
+========================== */
+
+@media (max-width: 768px) {
+  .testimonials {
+    padding: 50px 0;
+  }
+
+  .testimonials__title {
+    font-size: 30px;
+
+    margin-bottom: 28px;
+  }
+
+  .testimonials__image img {
+    border-radius: 12px;
   }
 }

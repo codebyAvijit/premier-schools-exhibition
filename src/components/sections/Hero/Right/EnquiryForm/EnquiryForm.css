@@ -14,11 +14,13 @@
   color: var(--color-white);
 
   font-size: 2rem;
+
   font-weight: var(--fw-bold);
 }
 
 .enquiry-form__form {
   display: flex;
+
   flex-direction: column;
 
   gap: 16px;
@@ -35,23 +37,43 @@
 
   border-radius: 8px;
 
-  color: var(--color-white);
+  color: white;
 
   outline: none;
-
-  transition: var(--transition);
 }
 
 .enquiry-form__form input::placeholder {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.enquiry-form__form input:focus {
-  border-color: var(--color-secondary);
+.enquiry-form .button {
+  width: 100%;
+
+  justify-content: center;
+
+  margin-top: 8px;
 }
 
-.enquiry-form .button {
-  margin-top: 8px;
+/* Tablet */
 
-  width: fit-content;
+@media (max-width: 1024px) {
+  .enquiry-form {
+    max-width: 600px;
+
+    margin-inline: auto;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .enquiry-form {
+    padding: 24px;
+  }
+
+  .enquiry-form__title {
+    text-align: center;
+
+    font-size: 1.7rem;
+  }
 }

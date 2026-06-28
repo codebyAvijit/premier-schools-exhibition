@@ -1,11 +1,22 @@
 .video {
-  padding-bottom: 80px;
+  padding: 70px 0;
 }
 
 .video video {
-  width: 100%;
-
   display: block;
 
-  border-radius: 16px;
+  width: 100%;
+  height: auto;
+
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .video {
+    padding: 50px 0;
+  }
+
+  .video video {
+    border-radius: 12px;
+  }
 }

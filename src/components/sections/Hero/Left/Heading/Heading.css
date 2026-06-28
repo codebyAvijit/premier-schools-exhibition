@@ -1,7 +1,19 @@
 .hero-heading {
-  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-size: clamp(2rem, 5vw, 4rem);
+
   font-weight: 700;
+
   line-height: 1.1;
+
   color: #f8c96a;
+
   margin-bottom: 12px;
+}
+
+@media (max-width: 768px) {
+  .hero-heading {
+    text-align: center;
+
+    font-size: 2.2rem;
+  }
 }

@@ -66,12 +66,17 @@
 
 @media (max-width: 768px) {
   .image-collage {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 10px;
   }
 
   .image-collage__item {
     transform: none !important;
+  }
+
+  .image-collage__item img {
+    aspect-ratio: 3/4;
   }
 }
 

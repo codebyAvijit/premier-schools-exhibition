@@ -1,8 +1,19 @@
-.hero-subtitle {
-  color: white;
-  letter-spacing: 3px;
-  font-size: 1rem;
-  font-weight: 600;
+.hero-heading {
+  font-size: clamp(2rem, 5vw, 4rem);
 
-  margin-bottom: 40px;
+  font-weight: 700;
+
+  line-height: 1.1;
+
+  color: #f8c96a;
+
+  margin-bottom: 12px;
+}
+
+@media (max-width: 768px) {
+  .hero-heading {
+    text-align: center;
+
+    font-size: 2.2rem;
+  }
 }

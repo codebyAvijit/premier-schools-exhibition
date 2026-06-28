@@ -1,11 +1,15 @@
 .schools {
-  padding-bottom: 70px;
+  padding: 70px 0;
 }
 
 .schools h2 {
   text-align: center;
 
   margin-bottom: 40px;
+
+  font-size: 40px;
+
+  color: var(--color-primary);
 }
 
 .schools__grid {
@@ -17,15 +21,19 @@
 }
 
 .schools__card {
-  border: 1px solid #eee;
-
-  padding: 18px;
-
   display: flex;
 
   justify-content: center;
 
   align-items: center;
+
+  padding: 20px;
+
+  border: 1px solid #eee;
+
+  border-radius: 12px;
+
+  background: white;
 }
 
 .schools__card img {
@@ -34,4 +42,38 @@
   height: 50px;
 
   object-fit: contain;
+}
+
+/* Tablet */
+
+@media (max-width: 992px) {
+  .schools__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .schools {
+    padding: 60px 0;
+  }
+
+  .schools h2 {
+    font-size: 32px;
+  }
+
+  .schools__grid {
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 16px;
+  }
+
+  .schools__card {
+    padding: 16px;
+  }
+
+  .schools__card img {
+    height: 40px;
+  }
 }
