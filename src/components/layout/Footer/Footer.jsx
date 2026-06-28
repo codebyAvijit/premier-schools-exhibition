@@ -1,6 +1,6 @@
 import "./Footer.css";
 
-import logo from "../../../assets/images/logo/footerLogo.png";
+import logo from "../../../assets/images/logo/footerlogo.png";
 
 import locationIcon from "../../../assets/svg/location.svg";
 import phoneIcon from "../../../assets/svg/call.svg";

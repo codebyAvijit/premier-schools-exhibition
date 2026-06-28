@@ -2,13 +2,13 @@ import "./Hero.css";
 
 import Container from "../../common/Container/Container";
 
-import Heading from "./left/Heading/Heading";
-import Subtitle from "./left/Subtitle/Subtitle";
+import Heading from "./Left/Heading/Heading";
+import Subtitle from "./Left/Subtitle/Subtitle";
 import EventCards from "./Left/EventCards/EventCards";
 
-import ImageCollage from "./center/ImageCollage/ImageCollage";
+import ImageCollage from "./Center/ImageCollage/ImageCollage";
 
-import EnquiryForm from "./right/EnquiryForm/EnquiryForm";
+import EnquiryForm from "./Right/EnquiryForm/EnquiryForm";
 
 const Hero = () => {
   return (
