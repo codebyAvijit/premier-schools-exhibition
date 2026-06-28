@@ -1,0 +1,31 @@
+.testimonials {
+  padding: 90px 0;
+}
+
+.testimonials__title {
+  margin-bottom: 48px;
+
+  text-align: center;
+
+  font-size: 44px;
+
+  color: var(--color-primary);
+}
+
+.testimonials__image img {
+  width: 100%;
+
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .testimonials {
+    padding: 60px 0;
+  }
+
+  .testimonials__title {
+    font-size: 32px;
+
+    margin-bottom: 32px;
+  }
+}

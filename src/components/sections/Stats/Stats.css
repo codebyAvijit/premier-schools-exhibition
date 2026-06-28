@@ -1,0 +1,9 @@
+.stats__image {
+  display: flex;
+  justify-content: center;
+}
+
+.stats__image img {
+  width: 100%;
+  max-width: 1200px;
+}

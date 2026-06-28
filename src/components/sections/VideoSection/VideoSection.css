@@ -1,0 +1,11 @@
+.video {
+  padding-bottom: 80px;
+}
+
+.video video {
+  width: 100%;
+
+  display: block;
+
+  border-radius: 16px;
+}

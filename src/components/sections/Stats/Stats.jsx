@@ -1,7 +1,13 @@
-import React from "react";
+import "./Stats.css";
+
+import laurels from "../../../assets/images/stats/laurels.png";
 
 const Stats = () => {
-  return <div>Stats</div>;
+  return (
+    <section className="stats__image">
+      <img src={laurels} alt="Statistics" />
+    </section>
+  );
 };
 
 export default Stats;
